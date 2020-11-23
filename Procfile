@@ -1,0 +1,1 @@
+web: java -jar target/agile-basin-05269-1.0.jar
