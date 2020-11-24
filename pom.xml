@@ -59,7 +59,7 @@
                     <processTypes>
                         <!-- Tell Heroku how to launch your application -->
                         <!-- You might have to remove the ./ in front -->
-                        <web>java -jar target/agile-basin-05269.jar</web>
+                        <web>java -jar target/agile-basin-05269-1.0.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
