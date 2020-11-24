@@ -1,4 +1,4 @@
-package kom.kiparis;
+package org.kiparis;
 
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
@@ -13,7 +13,5 @@ public class Main {
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
-
     }
-
 }
