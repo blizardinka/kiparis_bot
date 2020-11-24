@@ -31,6 +31,14 @@
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
                     <archive>
                         <manifest>
@@ -53,8 +61,13 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>3.0.3</version>
                 <configuration>
+                    <jdkVersion>1.8</jdkVersion>
+                    <!-- Use your own application name -->
+                    <appName>agile-basin-05269</appName>
                     <processTypes>
-                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* org.kiparis.Main</web>
+                        <!-- Tell Heroku how to launch your application -->
+                        <!-- You might have to remove the ./ in front -->
+                        <web>java -jar target/agile-basin-05269.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
