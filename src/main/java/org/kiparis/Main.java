@@ -1,8 +1,6 @@
 package org.kiparis;
 
 import org.telegram.telegrambots.meta.TelegramBotsApi;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 public class Main {
@@ -10,7 +8,7 @@ public class Main {
         try {
             TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
             telegramBotsApi.registerBot(new Bot());
-        } catch (TelegramApiException e) {
+        } catch (org.telegram.telegrambots.meta.exceptions.TelegramApiException e) {
             e.printStackTrace();
         }
     }
