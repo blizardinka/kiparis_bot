@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* -jar target/agile-basin-05269-1.0.jar
+worker: sh mvn clean compile assembly:singler; sh java -jar target/agile-basin-05269-1.0-jar-with-dependencies.jar
