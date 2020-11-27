@@ -1,1 +1,1 @@
-web: java -jar target/agile-basin-05269-1.0.jar
+web: mvn clean compile assembly:single; java -jar target/agile-basin-05269-1.0-jar-with-dependencies.jar
