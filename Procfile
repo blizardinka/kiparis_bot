@@ -1,1 +1,1 @@
-web: java -jar agile-basin-05269-1.0.jar
+web: java -jar agile-basin-05269-1.0-jar-with-dependencies.jar
