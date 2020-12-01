@@ -1,1 +1,1 @@
-worker: java -jar target/agile-basin-05269-1.0-jar-with-dependencies.jar
+web: java -jar target/kiparis-bot-1.0.jar

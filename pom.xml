@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.kiparis</groupId>
-    <artifactId>agile-basin-05269</artifactId>
+    <artifactId>kiparis-bot</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -40,6 +40,7 @@
                             <mainClass>org.kiparis.Main</mainClass>
                         </manifest>
                     </archive>
+                    <appendAssemblyId>false</appendAssemblyId>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
