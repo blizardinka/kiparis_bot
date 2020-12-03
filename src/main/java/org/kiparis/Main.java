@@ -17,12 +17,12 @@ public class Main {
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
-        try (ServerSocket serverSocket = new ServerSocket(Integer.valueOf(PORT))) {
-            while (true) {
-                Socket clientSocket = serverSocket.accept();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try (ServerSocket serverSocket = new ServerSocket(Integer.valueOf(PORT))) {
+//            while (true) {
+//                Socket clientSocket = serverSocket.accept();
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 }
