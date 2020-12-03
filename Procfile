@@ -1,1 +1,1 @@
-web: java -Dserver.port=8080 -jar target/kiparis-bot-1.0.jar
+web: java -Dserver.port=$PORT -jar target/kiparis-bot-1.0.jar
